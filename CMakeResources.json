@@ -1,0 +1,25 @@
+{
+    "version": {
+        "major": 1,
+        "minor": 0
+    },
+    "@comment@": "This file defines a CMakeResource which you can use to dynamically distribute port allocations in tests over a deterministic range.",
+    "local": [
+        {
+            "portoffset": [
+                {
+                    "id": "1",
+                    "slots": 1
+                },
+                {
+                    "id": "2",
+                    "slots": 1
+                },
+                {
+                    "id": "3",
+                    "slots": 1
+                }
+            ]
+        }
+    ]
+}
